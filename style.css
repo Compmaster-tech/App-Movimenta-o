@@ -16,14 +16,14 @@ body {
 
 h1 {
     text-align: center;
-    color: #6a5acd; /* Lilás para o título */
+    color: #945acd; /* Lilás para o título */
 }
 
 textarea {
     width: 100%;
     height: 100px;
     margin-bottom: 10px;
-    border: 1px solid #6a5acd; /* Borda lilás */
+    border: 1px solid #945acd; /* Borda lilás */
     border-radius: 5px;
     padding: 10px;
 }
@@ -31,7 +31,7 @@ textarea {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #6a5acd; /* Botão lilás */
+    background-color: #945acd; /* Botão lilás */
     color: white; /* Texto branco */
     border: none;
     border-radius: 5px;
@@ -39,12 +39,12 @@ button {
 }
 
 button:hover {
-    background-color: #5a4cbf; /* Tom mais escuro de lilás ao passar o mouse */
+    background-color: #824cbf; /* Tom mais escuro de lilás ao passar o mouse */
 }
 
 #resultado {
     margin-top: 20px;
     padding: 10px;
-    background: #e9e9f4; /* Fundo lilás claro para o resultado */
+    background: #f2e9f4; /* Fundo lilás claro para o resultado */
     border-radius: 5px;
 }
