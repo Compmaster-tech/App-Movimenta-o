@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white; /* Fundo branco para a área principal */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #6a5acd; /* Lilás para o título */
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px solid #6a5acd; /* Borda lilás */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6a5acd; /* Botão lilás */
+    color: white; /* Texto branco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a4cbf; /* Tom mais escuro de lilás ao passar o mouse */
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 10px;
+    background: #e9e9f4; /* Fundo lilás claro para o resultado */
+    border-radius: 5px;
+}
