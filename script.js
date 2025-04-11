@@ -7,8 +7,8 @@ function darOrientacao() {
         resultado = 'sem cancelamento 33 dias';
     } else if (movimentacao.includes('mesmo documento')) {
         resultado = 'cancelamento e ativação em 33 dias.';
-    } else if (movimentacao.includes('para a esquerda')) {
-        resultado = 'Mova-se 1 passo para a esquerda.';
+    } else if (movimentacao.includes('reconsideração')) {
+        resultado = 'Reconsideração de linha cancelada a mais de 33 dias remunera como uma nova alta no valor do plano reconsiderado, o mesmo que consta no carrinho. Porém reconsideração de linha suspensa não é remunerado.';
     } else if (movimentacao.includes('para a direita')) {
         resultado = 'Mova-se 1 passo para a direita.';
     } else {
